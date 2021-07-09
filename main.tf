@@ -64,7 +64,7 @@ resource "tfe_workspace" "development" {
   organization = "${var.org}"
   auto_apply   = true
   queue_all_runs = false
-  terraform_version = "0.12.13"
+  terraform_version = "0.12.31"
 
   vcs_repo {
     branch         = "development"
